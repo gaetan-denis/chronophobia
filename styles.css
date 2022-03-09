@@ -4,6 +4,8 @@ body {
     background-color: lightgrey;
 }
 header {
+    display: flex;
+    
     background-image: url("img/banner.jpg");
     background-position:top;
     background-size: cover;
@@ -16,7 +18,17 @@ h1 {
     font-size:35px;
     font-family: 'Smythe', cursive;
     line-height:15px;
-    color: whitesmoke
+    color: whitesmoke;
+    margin-left:500px;
+}
+
+header p {
+    margin-left:100px;
+    font-size:20px;
+    font-family: 'Smythe', cursive;
+    line-height:30px;
+    color: black
+
 }
 section {
     display : flex;
@@ -60,6 +72,7 @@ section {
     background-color: whitesmoke;
     border : 2px solid darkgrey;
 }
+
 .blackford {
     color:white;
 }
