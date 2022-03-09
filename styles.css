@@ -3,7 +3,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: lightgrey;
 }
-
 header {
     background-image: url("img/banner.jpg");
     background-position:top;
@@ -13,20 +12,15 @@ header {
     border : 2px solid darkgrey;
     text-align:center;
 }
-
 h1 {
     font-size:35px;
     font-family: 'Smythe', cursive;
     line-height:15px;
     color: whitesmoke
 }
-
 section {
     display : flex;
 }
-
-
-
 .left-menu{
     background-image: url("img/banner.jpg");
     background-position:left;
@@ -39,18 +33,21 @@ section {
     border : 2px solid darkgrey;
 }
 .left-menu ul {
+    border : 1px solid white;
+    background-color: rgba(169, 169, 169, 0.589);
+    border-radius:6px;
+    opacity: 0,5;
     list-style-type: none;
 }
 .left-menu a {
+    margin:15px;
     text-decoration:none;
     color:whitesmoke;
 }
-
 .left-menu a:hover {
-    color:lightgrey;
-    
+    color:black;
+    transition-duration: 1s;
 }
-
 .content-body {
     background-image: url("img/banner.jpg");
     background-position:center;
@@ -61,7 +58,6 @@ section {
     background-color: whitesmoke;
     border : 2px solid darkgrey;
 }
-
 footer {
     background-image: url("img/banner.jpg");
     background-position:bottom;
@@ -71,41 +67,32 @@ footer {
     height:60px;
     border : 2px solid darkgrey;
 }
-
 footer ul {
-
-    
     display:flex;
     justify-content: space-between;
     list-style-type: none;
     margin-right: 40px;
     margin-left:40px;
-    
-}
-
-footer li {
-    
-    border : 2px solid white;
-    border-radius:6px;
-    padding:5px;
-    opacity: 0,5;
+    border : 1px solid white;
     background-color: rgba(169, 169, 169, 0.589);
+    border-radius:6px;
+    opacity: 0,5;
 }
-
+footer li {
+    width: 100px;
+    margin:-4px;
+    padding:5px;
+}
 footer a {
-    
     text-decoration: none;
     color:grey;
     line-height: 25px;
     color:whitesmoke;
 }
-
 footer a:hover {
     color:black;
     transition-duration: 1s;
-    
 }
-
 .icofont-instagram, .icofont-facebook,.fa-discord,.icofont-twitter {
     color:white;
 }
