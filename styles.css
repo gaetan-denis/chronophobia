@@ -27,12 +27,14 @@ section {
     background-size:cover;
     margin-top : 10px;
     margin-right:10px;
-    width: 200px;
+    width: 240px;
     height : 400px;
     background-color: whitesmoke;
     border : 2px solid darkgrey;
 }
 .left-menu ul {
+    margin:5px;
+    padding:0px;
     border : 1px solid white;
     background-color: rgba(169, 169, 169, 0.589);
     border-radius:6px;
@@ -46,7 +48,7 @@ section {
 }
 .left-menu a:hover {
     color:black;
-    transition-duration: 1s;
+    transition-duration: 1.5s;
 }
 .content-body {
     background-image: url("img/banner.jpg");
@@ -91,7 +93,7 @@ footer a {
 }
 footer a:hover {
     color:black;
-    transition-duration: 1s;
+    transition-duration: 1.5s;
 }
 .icofont-instagram, .icofont-facebook,.fa-discord,.icofont-twitter {
     color:white;
