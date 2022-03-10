@@ -1,5 +1,5 @@
 body {
-    font-size: 16px;
+    font-size: 1rem;
     font-family:'Smythe', cursive;
     background-color: lightgrey;
 }
@@ -11,13 +11,13 @@ header {
     background-size: cover;
     background-color: whitesmoke;
     height:3.75rem;
-    border : 2px solid darkgrey;
+    border : 0.125rem solid darkgrey;
     text-align:center;
 }
 h1 {
     font-size:2.1875rem;
     font-family: 'Smythe', cursive;
-    line-height:15px;
+    line-height:0.9375rem;
     color: whitesmoke;
     margin-left:31.25rem;
 }
